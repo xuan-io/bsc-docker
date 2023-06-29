@@ -7,5 +7,5 @@ services:
       dockerfile: Dockerfile.bsc
       args:
         GIT_SOURCE: https://github.com/binance-chain/bsc.git
-        GIT_CHECKOUT_REF: master
+        GIT_CHECKOUT_REF: v1.1.19
     image: bsc-geth:docker-local

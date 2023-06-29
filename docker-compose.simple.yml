@@ -42,7 +42,7 @@ services:
       RPC_PORT: 8545
     volumes:
       - ./scripts:/scripts
-    restart: always
+
 
 networks:
   default:

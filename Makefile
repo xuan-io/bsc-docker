@@ -1,6 +1,6 @@
 SHELL:=/usr/bin/env sh
 
-OSFLAG := ""
+OSFLAG :=
 UNAME := $(shell uname -m)
 ifeq ($(UNAME), arm64)
   OSFLAG = DOCKER_DEFAULT_PLATFORM=linux/amd64
